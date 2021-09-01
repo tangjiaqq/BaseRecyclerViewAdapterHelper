@@ -20,8 +20,8 @@
 #*;
 #}
 #-keep public class * extends com.chad.library.adapter.base.BaseQuickAdapter
--keep public class * extends com.chad.library.adapter.base.viewholder.BaseViewHolder
--keepclassmembers  class **$** extends com.chad.library.adapter.base.viewholder.BaseViewHolder {
+-keep public class * extends com.chad.library3.adapter.base.viewholder.BaseViewHolder
+-keepclassmembers  class **$** extends com.chad.library3.adapter.base.viewholder.BaseViewHolder {
      <init>(...);
 }
 #-keepattributes InnerClasses
